@@ -25,6 +25,9 @@ function Apps(){
  <br/><br/>
  <button type='button' onClick=".." id='b2'><img src={gogle}/><b id='t'>Sign up with Google</b></button>
  <br/> <br/>
+ <div>
+  changed
+ </div>
  <span id='log'>
  Already have account?
  </span>
