@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar/>
-        <Wishlist/>
-
+        <h1>404 Not Found</h1>
       </header>
     </div>
   );
