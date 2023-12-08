@@ -5,8 +5,9 @@ function account() {
       <>
          <div className='account'>
             <div className='account_heading'>
-               <label><span> Home /</span> Account</label>
-               <label>Welcome!<span className='wlcm'> Md Rimel</span></label>
+               <div><label><span> Home /</span> Account</label> </div>
+
+               <div><label>Welcome!<span className='wlcm'> Md Rimel</span></label></div>
             </div>
 
             <div className='account_info'>

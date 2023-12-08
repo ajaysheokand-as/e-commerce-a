@@ -1,4 +1,5 @@
-/* Cart */
+/* -------Cart--------- */
+
 .cart {
   padding: 0px;
 }
@@ -24,6 +25,12 @@
   margin-top: 80px;
 }
 
+.cancel {
+  position: absolute;
+  top: -6px;
+  left: -9px;
+}
+
 .product_1,
 .product_2,
 .product_3 {
@@ -38,36 +45,34 @@
 
 .product_2,
 .product_3 {
-  padding: 40px 24px;
+  padding: 40px 34px;
+  margin-top: 40px;
 }
 
 .quantity_btn {
   position: relative;
-  padding: 6px 12px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  width: 72px;
+  height: 44px;
+  padding: 3px;
   border: 1.50px solid rgba(0, 0, 0, 0.40);
   border-radius: 4px;
-  background-color: white;
 }
 
 .quantity_btn button {
   border: none;
   padding: 6px 12px;
-  background-color: white;
 }
 
 .arrow_up {
   position: absolute;
   top: 5px;
-  left: 41px;
+  left: 39px;
 }
 
 .arrow_down {
   position: absolute;
-  top: 15px;
-  left: 41px;
+  top: 20px;
+  left: 39px;
 }
 
 .quantity_btn button label {
@@ -78,16 +83,13 @@
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .product-btn button {
   height: 56px;
   width: 218px;
   padding: 16px 48px;
-  font-size: 16px;
-  font-family: 'Poppins';
-  font-weight: 500px;
-  line-height: 24px;
   word-wrap: 'break-word';
   border: 1px solid gray;
   background-color: white;
@@ -106,18 +108,10 @@
   justify-content: space-between;
 }
 
-.coupon {
-  padding-top: 50px;
-}
-
 .coupon input {
   height: auto;
-  width: 150px;
+  width: 279px;
   padding: 16px 164px 16px 24px;
-  font-size: 16px;
-  font-family: 'Poppins';
-  font-weight: 500px;
-  line-height: 24px;
   word-wrap: 'break-word';
   border: 1px solid gray;
   background-color: white;
@@ -129,11 +123,6 @@
   height: 56px;
   padding: 16px 48px;
   border: none;
-  font-size: 16px;
-  font-family: 'Poppins';
-  font-weight: 500px;
-  line-height: 24px;
-  word-wrap: 'break-word';
   gap: 10px;
   color: white;
   background-color: rgba(219, 68, 68, 1);
@@ -144,17 +133,11 @@
 .price {
   width: 470px;
   height: 324px;
-  position: relative;
   border: 1.5px solid rgba(0, 0, 0, 1);
   border-radius: 4px;
   padding: 32px 0px 24px 24px;
   line-height: 24px;
   padding-right: 0px;
-}
-
-.price p h4 {
-  padding-left: 24px;
-  word-spacing: 307px;
 }
 
 .price hr {
@@ -171,18 +154,161 @@
   color: white;
   border-radius: 4px;
   border: none;
-  gap: 10px;
-  font-size: 16px;
-  font-family: 'Poppins';
-  font-weight: 500px;
-  line-height: 24px;
   word-wrap: 'break-word';
+}
+
+.price_span {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+
+
+@media screen and (max-width: 430px) {
+  .product-details {
+    padding: 5%
+  }
+
+  .product-list {
+    margin-top: 10%;
+  }
+
+  .product_1 {
+    padding: 17px;
+  }
+
+  .product_2,
+  .product_3 {
+    padding: 20px;
+  }
+
+  .product-btn button {
+    width: 150px;
+    padding: 3%;
+  }
+
+  .product-btn button:nth-child(2) {
+    width: 150px;
+  }
+
+  .cart_total {
+    display: block;
+  }
+
+  .coupon {
+    display: block;
+    margin-left: 20%;
+  }
+
+  .coupon button {
+    margin-top: 18px;
+  }
+
+  .price {
+    margin-top: 45px;
+    width: auto;
+  }
+
+  .price_btn {
+    padding: 35px 62px;
+  }
+
+}
+
+@media screen and (max-width: 820px) {
+  .product-details {
+    padding: 5%
+  }
+
+  .product-list {
+    margin-top: 10%;
+  }
+
+  .product-btn button {
+    width: 150px;
+    padding: 3%;
+  }
+
+  .product-btn button:nth-child(2) {
+    width: 150px;
+  }
+
+  .cart_total {
+    display: block;
+  }
+
+  .coupon {
+    display: block;
+    margin-left: 20%;
+  }
+
+  .coupon button {
+    margin-top: 18px;
+  }
+
+
+  .coupon input {
+    width: 40%;
+  }
+
+  .price {
+    margin-top: 45px;
+  }
+
+  .price_btn {
+    width: 408px;
+    padding: 33px 84px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .product-details {
+    padding: 5%
+  }
+
+  .product-list {
+    margin-top: 10%;
+  }
+
+  .product-btn button {
+    width: 212px;
+  }
+
+  .cart_total {
+    display: block;
+  }
+
+  .coupon input {
+    width: 283px;
+  }
+
+  .coupon button {
+    margin-left: 4%;
+    width: auto;
+    height: 56px;
+    padding: 16px 40px;
+  }
+
+  .coupon {
+    margin-left: auto;
+  }
+
+  .price {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .price_btn {
+    width: 408px;
+    padding: 33px 84px;
+  }
 }
 
 /* ............About............. */
 
 .text {
-  padding: 0px 135px;
+  padding: 0px auto;
 }
 
 .text label {
@@ -198,11 +324,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 135px;
+}
+
+@media screen and (max-width: 820px) {
+  .about {
+    display: block;
+  }
 }
 
 .about h2 {
-  font-size: 54px;
+  font-size: 42px;
   font-family: 'Inter';
   font-weight: 600;
   line-height: 64px;
@@ -219,14 +350,21 @@
 }
 
 .sale_detail {
-  padding: 100px 135px;
+  padding-top: 100px;
   text-align: center;
 }
 
-.boxes {
+.sale_col_1 {
+  width: 270px;
+  height: 230px;
+}
+
+.boxes,
+.service_detail {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .box_1 {
@@ -245,41 +383,8 @@
   padding: 30px 29px 30px 28px;
 }
 
-.sale_col_1 {
-  width: 270px;
-  height: 230px;
-}
-
-
-.icon_1 {
-  position: absolute;
-  top: 23px;
-  left: 54px;
-}
-
-.icon_2 {
-  position: absolute;
-  top: 20px;
-  left: 61px;
-}
-
-.icon_3 {
-  position: absolute;
-  top: 20px;
-  left: 101px;
-}
-
-.icon_4 {
-  position: absolute;
-  top: 23px;
-  left: 74px;
-}
-
 .members {
-  padding: 140px 135px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding-top: 140px;
 }
 
 .member_1 {
@@ -336,8 +441,8 @@
 .red_dot {
   width: 10px;
   height: 10px;
-  left: 4px;
-  top: 4px;
+  left: 3px;
+  top: 3px;
   position: absolute;
   background: rgb(219, 68, 68);
   border-radius: 100%;
@@ -354,8 +459,10 @@
 }
 
 /* ---------Services----------- */
+
 .services {
-  padding: 100px 248px 240px 249px;
+  padding-top: 100px;
+  padding-bottom: auto;
 }
 
 .services h3 {
@@ -379,13 +486,11 @@
 .delivery {
   width: 294px;
   height: 161px;
-  margin-right: 88px;
 }
 
 .customer_service {
   width: 270px;
   height: 161px;
-  margin-right: 88px;
 }
 
 .guarantee {
@@ -399,30 +504,10 @@
   align-items: center;
 }
 
-.delivery_icon {
-  position: absolute;
-  top: 22px;
-  left: 115px;
-}
-
-.customer_service_icon {
-  position: absolute;
-  top: 19px;
-  left: 102px;
-}
-
-.guarantee_icon {
-  position: absolute;
-  top: 20px;
-  left: 112px;
-}
-
-
-
 /* -----------Account------------- */
 
 .account {
-  padding: 0px 135px;
+  padding: 0px 125px;
 }
 
 .account_heading {
@@ -455,16 +540,17 @@
   line-height: 24px;
   word-wrap: 'break-word';
 }
-.profile_edit{
-  margin-left: 134px;
-  width: 870px;
-  height: 630px;
+
+.profile_edit {
+  margin-left: auto;
+  width: auto;
+  height: auto;
   box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
 }
 
 .profile,
 .orders {
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 .profile span {
@@ -508,8 +594,27 @@
   margin: 16px;
   width: 710px;
 }
-.profile_btn{
+
+.profile_btn {
   display: flex;
   justify-content: end;
   margin-right: 60px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 820px) {
+  .account_info {
+    display: block;
+    gap: 30px;
+  }
+
+  .name_section,
+  .email_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
+
 }
