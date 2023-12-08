@@ -15,7 +15,7 @@ import Headphones from '../Images/headphones.png'
 import Shield_tick from '../Images/tick.png'
 
 
-function about() {
+function About() {
    return (
       <>
          <div className='container'>
@@ -195,4 +195,4 @@ function about() {
    )
 }
 
-export default about
+export default About
