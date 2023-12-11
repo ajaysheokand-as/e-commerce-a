@@ -1,18 +1,13 @@
-import './Web.css';
-//import Navbar from'./components/Navbar';
-import Wishlist from './components/Wishlist';
-//import Contact from './components/Contact';
-//import Cart from './components/Cart';
-//import Account from './components/Account'
-//import About from './components/About'
+//import './sections/css/web.css';
+import Cart from './sections/portion/Cart';
+import Account from './sections/portion/Account';
+import About from './sections/portion/About';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/*<Navbar/>*/}
-                <Wishlist/>
-                {/*<Cart />*/}
+                <Cart />
                 {/*<Account/>*/}
                 {/*<About/>*/}
 

@@ -5,6 +5,8 @@ import Game from '../Images/game.png'
 import UpArrow from '../Images/uparrow.png'
 import DownArrow from '../Images/downarrow (1).png'
 
+import '../css/index.css'
+
 const Cart = () => {
     return (
         <>

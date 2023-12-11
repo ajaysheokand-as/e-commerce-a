@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Image from '../Images/africans.png'
 import Shop from '../Images/shop.png'
 import Dollar from '../Images/dollar.png'
@@ -13,6 +14,9 @@ import Linkedin from '../Images/Icon-Linkedin.png'
 import Delivery from '../Images/delivery.png'
 import Headphones from '../Images/headphones.png'
 import Shield_tick from '../Images/tick.png'
+
+import '../css/index.css'
+
 
 
 function About() {
