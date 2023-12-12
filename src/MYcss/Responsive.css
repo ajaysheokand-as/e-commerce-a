@@ -1,18 +1,23 @@
+@media screen and (min-width:970px){
+  .Navmenu_mobile{
+    display: block;
+}
+.Navmenu ul{
+  /* display: block; */
+  /* display: flex; */
+}
+}
 
-
-@media screen and (max-width:950px){
+@media screen and (max-width:970px){
 
 .Navbar{
-    margin: 0px 40px;
+    margin: 20px 40px;
     /* display: flex; */
 }
-.Mobile_icon{
-  position: absolute;
-}
+
     .Mobile_icon img{
         display: block;
-
-        
+        position: absolute;
     }
     .Navmenu_mobile{
         display: block;
@@ -22,6 +27,60 @@
 display: none;
 
 
+
+
+}
+.Navmenu li {
+  margin: 0px 14px;
+  list-style: none;
+  gap: 55px;
+  padding: 6px 0px;
+}
+
+.Navmenu {
+  overflow: hidden;
+  display: block;
+  /* top: 84px; */
+  top: 83px;
+  /* padding: 5px; */
+  padding: 25px 285px;
+  position: absolute;
+  z-index: 1;
+  right: 40px;
+  background: black;
+  color: white;
+  width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    cursor: pointer;
+}
+/* .Navmenu{
+overflow: hidden;
+
+display: block;
+    top: 84px;
+    /* top: -9px; */
+    /* padding: 5px;
+    position: absolute;
+    z-index: 1;
+    right: 41px;
+    background: black;
+    color: white;
+    width: 39%;
+    height: 28vh; */
+/* } */
+.Navmenu ul{
+display: block;
+justify-content: space-around;
+/* margin-top: 40px; */
+/* margin: 5px 0px; */
+/* top: 20px; */
+
+}
+
+
+.Navmenu ul li a{
+color: white;
 }
 }
 
@@ -30,7 +89,42 @@ display: none;
 
 
 @media screen and (max-width:830px){
- 
+/*  
+  .Navmenu {
+    overflow: hidden;
+    display: block;
+    top: 84px;
+    top: -9px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    right: 41px;
+    background: black;
+    color: white;
+    width: 39%;
+    height: 20vh;
+  } */
+  .Navmenu {
+    overflow: hidden;
+    display: block;
+    top: 84px;
+    top: 82px;
+    /* padding: 5px; */
+    padding: 25px 285px;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    background: black;
+    color: white;
+    width: 50vw;
+    height: 50vh;
+    opacity: 0;
+    transition: 0.9;
+    /* cursor: pointer; */
+  }
+  .Mobile_icon img{
+
+  }
     .First_page{
         margin: 10px 0px;
         
@@ -287,4 +381,3 @@ display: none;
     flex-wrap: wrap;
   }
 }
-

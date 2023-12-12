@@ -2,6 +2,7 @@ import React from 'react';
 import '../MYcss/Style.css';
 import '../MYcss/Responsive.css';
 import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import Image1 from '../Picture/Searchbar.png'
 import Image2 from '../Picture/likeeee.png'
 import Image3 from '../Picture/Cartaaaa.png'
@@ -16,10 +17,12 @@ function Navbar() {
 
        <div className='Navmenu'>
          <ul>
-            <li><a  href='#' >Home</a></li>
-            <li><a href='#' >Contant</a></li>
-            <li><a href='#' >About</a></li>
-            <li><a href='#' >Sign Up</a></li>
+
+       
+            <li><NavLink to='/Home'>Home</NavLink></li>
+            <li><NavLink to='/Contant'>Contant</NavLink></li>
+            <li><NavLink to='/About'>About</NavLink></li>
+            <li><NavLink to='/Sign Up'>Sign Up</NavLink></li>
          </ul>
        </div>
 
@@ -35,6 +38,10 @@ function Navbar() {
             
                 <img src={Image2} alt=''/>
                 <img src={Image3} alt=''/>
+                <div className='Mobile_icon'>
+        <img src={Image4}/>
+        </div>
+
                </div>
 
 
