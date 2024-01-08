@@ -33,7 +33,7 @@ function Wishlist() {
                         {productData.map((product) => {
                             return (
 
-                                <div className='col-md-3 col-sm-3'>
+                                <div className='col'>
                                     <div className='img-box-1'>
                                         <img src={product.img} alt='not found'></img>
                                     </div>

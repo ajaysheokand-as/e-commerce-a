@@ -1048,7 +1048,13 @@ code {
             width: 2000px !important;
         }
         .sec_2{
-            overflow-x: scroll !important;
+            overflow: scroll !important;
+        }
+        .slider_2{
+            width: 2000px ;
+        }
+        .sec{
+            overflow: scroll !important;
         }
     }
 }
