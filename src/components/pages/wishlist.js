@@ -1,10 +1,6 @@
 import React from 'react'
-import { productData } from '../data/Product';
-import { productData2 } from '../data/Product';
-// import img1 from '../components/images/Bkash.png';
-// import img2 from '../components/images/speaker.png';
-// import img3 from '../components/images/ps4remote.png';
-// import { Link } from "react-router-dom";
+import { productData } from '../data/product';
+import { productData2 } from '../data/product';
 import '../css/style.css';
 
 function Wishlist() {

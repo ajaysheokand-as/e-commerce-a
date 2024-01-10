@@ -3,7 +3,7 @@ import phone from '../img/iconsphone.png';
 import email from '../img/iconsmail.png';
 import '../css/style.css';
 
-function contact() {
+function Contact() {
     return (
         <div className='contact'>
             <div className='home'>
@@ -75,4 +75,4 @@ function contact() {
     )
 }
 
-export default contact
+export default Contact
