@@ -5,15 +5,11 @@ import Home from './components/Home';
 function App() {
     return (
         <>
-            {/* <Router>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/call' element={<Checkout/>}/>
-            </Routes>
-        </Router> */}
-            <Home />
+        <Home/>
         </>
+
     );
+
 }
 
 export default App;
