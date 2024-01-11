@@ -1,7 +1,9 @@
 import React from 'react'
+
 import Wishlist from './pages/Wishlist'
 import Contact from './pages/Contact'
-import Checkout from './pages/Checkout'
+import Checkout from '../components/pages/Checkout'
+
 
 function Home() {
     return (

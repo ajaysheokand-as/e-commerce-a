@@ -798,6 +798,19 @@ code {
             margin-left: 7px;
             margin-top: 10px;
         }
+        .items_list{
+            margin-left: 0px !important;
+        }
+        .first_product{
+            display: flex;
+            align-items: center;
+            gap: 15px !important;
+        }
+        .second_project{
+            display: flex;
+            align-items: center;
+            gap: 7px !important;
+        }
 
 
     }
@@ -878,7 +891,7 @@ code {
 
         .col_lg_8 {
             margin: 0 !important;
-            height: auto;
+            height: 385px !important;
             width: 89%;
         }
 
@@ -939,7 +952,7 @@ code {
         }
 
         .col_lg_8 {
-            height: auto;
+            height: 585px;
             margin-left: 20px;
         }
 
@@ -1039,7 +1052,13 @@ code {
             width: 2000px !important;
         }
         .sec_2{
-            overflow-x: scroll !important;
+            overflow: scroll !important;
+        }
+        .slider_2{
+            width: 2000px ;
+        }
+        .sec{
+            overflow: scroll !important;
         }
     }
 }

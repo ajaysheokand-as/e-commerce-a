@@ -1,9 +1,6 @@
 import React from 'react'
 import { productData } from '../data/product';
 import { productData2 } from '../data/product';
-// import img1 from '../components/images/Bkash.png';
-// import img2 from '../components/images/speaker.png';
-// import img3 from '../components/images/ps4remote.png';
 import '../css/style.css';
 
 function Wishlist() {
@@ -16,6 +13,10 @@ function Wishlist() {
                 <div className='headerr'>
                     <div className='text'>
                         <p>Wishlist (4)</p>
+                        {/* <ul>
+                            <li><Link to='/call'>check out</Link></li>
+
+                        </ul> */}
                     </div>
                     <div className='btn'>
                         <button>Move All To Bag</button>
@@ -24,27 +25,27 @@ function Wishlist() {
 
                 {/* section1 */}
                 <div className='sec'>
-                <div className='row slider_2'>
-                    {productData.map((product) => {
-                        return (
+                    <div className='row slider_2'>
+                        {productData.map((product) => {
+                            return (
 
-                            <div className='col-md-3 col-sm-3'>
-                                <div className='img-box-1'>
-                                    <img src={product.img} alt='not found'></img>
-                                </div>
-                                <div className='addcart'>
-                                    <button className='icon-cart'><span id='cart'><box-icon name='cart-alt' color='#fefefe' ></box-icon></span>Add To Cart</button>
-                                </div>
-                                <div className='price'>
-                                    <h6>{product.name}</h6>
-                                    <span id='clr'>{product.price}</span>
-                                    <s>{product.discount}</s>
-                                </div>
-                            </div>)
-                    })}
+                                <div className='col'>
+                                    <div className='img-box-1'>
+                                        <img src={product.img} alt='not found'></img>
+                                    </div>
+                                    <div className='addcart'>
+                                        <button className='icon-cart'><span id='cart'><box-icon name='cart-alt' color='#fefefe' ></box-icon></span>Add To Cart</button>
+                                    </div>
+                                    <div className='price'>
+                                        <h6>{product.name}</h6>
+                                        <span id='clr'>{product.price}</span>
+                                        <s>{product.discount}</s>
+                                    </div>
+                                </div>)
+                        })}
 
 
-                </div>
+                    </div>
                 </div>
 
                 {/* mid part */}
