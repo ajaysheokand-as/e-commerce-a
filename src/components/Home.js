@@ -1,7 +1,9 @@
 import React from 'react'
+
+import Wishlist from './pages/Wishlist'
 import Contact from './pages/Contact'
 import Checkout from '../components/pages/Checkout'
-import Wishlist from './pages/Wishlist'
+
 
 function Home() {
     return (
@@ -10,7 +12,6 @@ function Home() {
                 <Wishlist />
                 <Contact />
                 <Checkout />
-
             </header>
         </>
     )

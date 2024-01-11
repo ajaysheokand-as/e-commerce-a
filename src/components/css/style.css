@@ -340,7 +340,9 @@ code {
 
 .name_email_phone {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* flex-wrap: wrap; */
 }
 
 .name_email_phone input {
@@ -895,10 +897,12 @@ code {
 
         .name_email_phone {
             flex-direction: column;
+            /* gap: 10px; */
         }
 
         .name {
             height: 66px !important;
+        
         }
 
         .email {
