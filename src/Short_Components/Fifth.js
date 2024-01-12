@@ -8,42 +8,47 @@ import Table from '../Picture/Tablesss.png'
 import Star1 from '../Picture/fstar1.png'
 import Star2 from '../Picture/fstar2.png'
 
+import hp2 from '../Picture/hp2.jpg'
+import hp3 from '../Picture/hp3.jpg'
+import Dell3 from  '../Picture/Dell3.jpg'
+import Dell4 from  '../Picture/Dell4.jpg'
+
 
 export const Products_Data=[
      {
-   Img:cloth,
-   name:"The north coat",
+   Img:hp2,
+   name:"Hp840 G3 i7 6th Generation /Touch",
    button:"Buy Now",
-prize:"$260",
-prize2:"$360",
-Img2:Star1
+prize:"Rs:24500",
+prize2:"$2660",
+// Img2:Star1
 },
 
 {
-     Img:Bag,
+     Img:hp3,
      button:"Buy Now",
-     name:"Gucci duffle bag",
-  prize:"$960",
-  prize2:"$1160",
-  Img2:Star2
+     name:"Hp840 G5 i5 8th Generation",
+  prize:"Rs:26200",
+  prize2:"Rs:29000",
+//   Img2:Star2
   },
 
   {
-     Img:Speaker,
+     Img:Dell3,
      button:"Buy Now",
      name:"RGB liquid CPU Cooler",
   prize:"$160",
   prize2:"$170",
-  Img2:Star2
+//   Img2:Star2
   },
 
 
   {
 
-     Img:Table,
+     Img:Dell4,
      button:"Buy Now",
      name:"Small BookSelf",
       prize:"$360",
-     Img2:Star1
+   //   Img2:Star1
   },
 ]

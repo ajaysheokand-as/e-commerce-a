@@ -34,7 +34,7 @@ function Fifth_page() {
       </div>
 
       <div className='fifth_page_3_stars'>
-        <img src={product.Img2} />
+        {/* <img src={product.Img2} /> */}
       </div>
 
 

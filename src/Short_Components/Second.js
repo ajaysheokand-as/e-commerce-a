@@ -10,48 +10,53 @@ import keybored from '../Picture/kb2.png'
 import scren from '../Picture/Screeen.png'
 import char from '../Picture/char2.png';
 
-import Frame_star from '../Picture/Frame star1.png'
-import Frame_star2 from '../Picture/Frame star2.png'
-import Frame_star3 from '../Picture/Frame star3.png'
-import Frame_star4 from '../Picture/Frame star4.png'
+// import Frame_star from '../Picture/Frame star1.png'
+// import Frame_star2 from '../Picture/Frame star2.png'
+// import Frame_star3 from '../Picture/Frame star3.png'
+// import Frame_star4 from '../Picture/Frame star4.png'
 
- 
+ import Dell1 from '../Picture/Dell1.jpg'
+ import Apple from '../Picture/apple11.jpg'
+ import hp from '../Picture/hp1.jpg';
+ import Lenovo from '../Picture/Lenovo1.jpg'
  export  const Flash=[
     {
-        img:controler,
+        img:Dell1,
         button:"Buy Now",
-        name:"HAVIT HV-G92 Gamepad",
-        prize:"$120",
-        prize2:"$160",
-        img2:Frame_star,
+        name:"Dell 7470 i7 6th Generation / Touch",
+        prize:"Rs:23500",
+        prize2:"Rs:25500",
+        // img2:Frame_star,
     },
 
+    // Description aviliability qty unit
+
     {
-        img:keybored,
+        img:Apple,
         button:"Buy Now",
-        name:"AK-900 Wired Keyboard",
-        prize:"$960",
-        prize2:"$1160",
-        img2:Frame_star2,
+        name:"Apple MacBook Pro",
+        prize:"Rs:90000",
+        prize2:"Rs:120000",
+        // img2:Frame_star2,
     },
 
 
     {
-        img:scren,
+        img:hp,
         button:"Buy Now",
-        name:"IPS LCD Gaming Monitor",
-        prize:"$370",
-        prize2:"$400",
-        img2:Frame_star3,
+        name:"Hp810g3 i5 5th Generation",
+        prize:"Rs:20200",
+        prize2:"Rs:23000",
+        // img2:Frame_star3,
     }
 ,
 
     {
-        img:char,
+        img:Lenovo,
         button:"Buy Now",
-        name:"S-Series Comfort Chair",
-        prize:"$375",
-        prize2:"$400",
-        img2:Frame_star4,
+        name:"Lenovo t460n i5 6th Generation",
+        prize:"Rs:19500",
+        prize2:"Rs:22500",
+        // img2:Frame_star4,
     }
 ]

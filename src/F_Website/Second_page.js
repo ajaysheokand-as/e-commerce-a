@@ -23,7 +23,7 @@ function Second_page() {
           <div className='Third_page_h1' >
             <h1>Flash Sales</h1>
           </div>
-          <div className='Times'>
+          {/* <div className='Times'>
             <div className='time'>
               <h4>Days</h4>
               <h1>03</h1>
@@ -52,7 +52,7 @@ function Second_page() {
             </div>
 
 
-          </div>
+          </div> */}
 
           <div className='fifth_page_button' >    
       <button>View All</button>
@@ -74,8 +74,8 @@ function Second_page() {
               <div className='Third_page_row3_img'>
               <img src={product.img} />
               </div>
-              <button>{product.button}</button> 
-           
+             <a href={`https://api.whatsapp.com/send/?phone=+918570996916&text=${product.name} - ${product?.prize}`} target='_blank' ><button>{product.button}</button> </a> 
+            
             <h1>{product.name}</h1>
             <h2>{product.prize} <span>{product.prize2}</span></h2>
             <img className='frame_star' src={product.img2} />
