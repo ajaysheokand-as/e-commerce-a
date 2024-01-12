@@ -23,7 +23,7 @@ import Frame_star4 from '../Picture/Frame star4.png'
         name:"HAVIT HV-G92 Gamepad",
         prize:"$120",
         prize2:"$160",
-        img2:Frame_star,
+    
     },
 
     {
@@ -32,7 +32,7 @@ import Frame_star4 from '../Picture/Frame star4.png'
         name:"AK-900 Wired Keyboard",
         prize:"$960",
         prize2:"$1160",
-        img2:Frame_star2,
+    
     },
 
 
@@ -42,7 +42,7 @@ import Frame_star4 from '../Picture/Frame star4.png'
         name:"IPS LCD Gaming Monitor",
         prize:"$370",
         prize2:"$400",
-        img2:Frame_star3,
+    
     }
 ,
 
@@ -52,6 +52,6 @@ import Frame_star4 from '../Picture/Frame star4.png'
         name:"S-Series Comfort Chair",
         prize:"$375",
         prize2:"$400",
-        img2:Frame_star4,
+        
     }
 ]
