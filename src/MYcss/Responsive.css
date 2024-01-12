@@ -6,7 +6,7 @@
   .Navmenu_mobile {
     display: block;
     position: absolute;
-    top: 102px;
+    top: 103px;
     background: black;
     color: white;
     width: 50vw;
@@ -15,6 +15,13 @@
     line-height: 45px;
     text-align: center;
     opacity: 0;
+  }
+  .Navmenu_mobile ul li{
+    list-style-type: none;
+  }
+  .Navmenu_mobile_Navlink{
+    text-decoration: none;
+    color: white;
   }
   .toggle{
     opacity: 100;
@@ -33,41 +40,25 @@
   .Navmenu {
     overflow: hidden;
     display: block;
-    /* top: 84px; */
+    
     top: 83px;
-    /* padding: 5px; */
+  
     padding: 25px 285px;
     position: absolute;
     z-index: 1;
     right: 40px;
     background: black;
-    color: white;
+    
     width: 50vw;
     height: 50vh;
     opacity: 0;
     cursor: pointer;
   }
-  /* .Navmenu{
-overflow: hidden;
 
-display: block;
-    top: 84px;
-    /* top: -9px; */
-  /* padding: 5px;
-    position: absolute;
-    z-index: 1;
-    right: 41px;
-    background: black;
-    color: white;
-    width: 39%;
-    height: 28vh; */
-  /* } */
   .Navmenu ul {
     display: block;
     justify-content: space-around;
-    /* margin-top: 40px; */
-    /* margin: 5px 0px; */
-    /* top: 20px; */
+  
   }
 
   .Navmenu ul li a {
@@ -112,42 +103,7 @@ display: block;
   .Navbar{
     margin: 20px 10px;
   }
-  /*  
-  .Navmenu {
-    overflow: hidden;
-    display: block;
-    top: 84px;
-    top: -9px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    right: 41px;
-    background: black;
-    color: white;
-    width: 39%;
-    height: 20vh;
-  } */
-  /* .Navmenu {
-    overflow: hidden;
-    display: block;
-    top: 84px;
-    top: 82px;
-    /* padding: 5px; */
-  /* padding: 25px 285px;
-    position: absolute;
-    z-index: 1;
-    right: 10px;
-    background: black;
-    color: white;
-    width: 50vw;
-    height: 50vh;
-    opacity: 0; */
-  /* transition: 0.9;  */
-  /* cursor: pointer; */
-  /* } */
-  /* .Mobile_icon img{
-display: block;
-  } */
+
   .First_page {
     margin: 10px 0px;
   }
@@ -237,8 +193,8 @@ display: block;
     justify-content: flex-start;
   }
   .Navbar_Search_1 input{
-    width: 212px;
-    height: 28px;
+    width: 212px; 
+    /* /* height: 28px; */
     background-color:#F5F5F5;
     outline: none;
     border: none;

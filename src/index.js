@@ -16,8 +16,10 @@ import Home from './F_Website/Home'
 // import Contact from './Component/Contact';
 // import User  from './Component/User';
 // import Github from '../src/Component/Github'; 
+import Contact from './components/page/contact';
+import About from './sections/portion/About';
 
-
+import main from './components/main'
 
 const router =createBrowserRouter(
 
@@ -26,6 +28,8 @@ const router =createBrowserRouter(
 
   <Route path='/' element={<Home/>} />
   <Route path='Home' element={<Home/>} /> 
+  <Route path='Contact' element={<Contact/>} /> 
+  <Route path='About' element={<About/>} /> 
       
 
     </Route>
@@ -37,6 +41,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <React.StrictMode>
     <RouterProvider router={router}/>
+    {/* <main/> */}
   </React.StrictMode>
 );
 

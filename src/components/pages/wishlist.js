@@ -1,9 +1,10 @@
 import React from 'react'
-import { productData } from './data/product';
-import { productData2 } from './data/product';
+import { productData } from '../data/product';
+import { productData2 } from '../data/product';
 // import img1 from '../components/images/Bkash.png';
 // import img2 from '../components/images/speaker.png';
 // import img3 from '../components/images/ps4remote.png';
+import '../css/style.css';
 
 function Wishlist() {
     console.log("productData=>", productData)
@@ -22,8 +23,8 @@ function Wishlist() {
                 </div>
 
                 {/* section1 */}
-                <div className='sec_2'>
-                <div className='row slider'>
+                <div className='sec'>
+                <div className='row slider_2'>
                     {productData.map((product) => {
                         return (
 

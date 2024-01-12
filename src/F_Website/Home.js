@@ -8,18 +8,17 @@ import Sevnth_page from "./Sevnth_page";
 
 import Eight_page from "./Eight_page";
 import Tenth_page from "./Tenth_page";
-
+import Signin from '../components/main'
 import React from "react";
-
+import Contact from "../components/page/contact";
 function Home() {
   return (
     <>
+    {/* <Contact/> */}
     <First_page />
     <Second_page />
     
 
-
-    
     < Fourth_page/>
     <Fifth_page/>
     <Sixth_page/>

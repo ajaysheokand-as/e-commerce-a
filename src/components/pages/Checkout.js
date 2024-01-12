@@ -1,10 +1,11 @@
 import React from 'react';
-import gamee from './/images/Gamepad-Cart-Small.png';
-import monitorr from './/images/Monitor-Cart-Small.png';
-import bcash from './/images/Bkash.png';
-import visa from './/images/Visa.png';
-import mastercard from './/images/Mastercard.png';
-import nagad from './/images/Nagad.png';
+import gamee from '../img/Gamepad-Cart-Small.png';
+import monitorr from '../img/Monitor-Cart-Small.png';
+import bcash from '../img/Bkash.png';
+import visa from '../img/Visa.png';
+import mastercard from '../img/Mastercard.png';
+import nagad from '../img/Nagad.png';
+import '../css/style.css';
 
 function Checkout() {
     return (
@@ -113,7 +114,7 @@ function Checkout() {
 
                         <div className='bank_cards'>
                             <div className='card_btn'>
-                                <input type='radio' name='bill'/>
+                                <input type='radio' name='bill' />
                                 <label>Bank</label>
                             </div>
                             <div className='cards_img'>
@@ -126,7 +127,7 @@ function Checkout() {
 
                         <div className='cash_on_delivery'>
                             <div className='card_btn'>
-                                <input type='radio' name='bill'/><label>Cash on delivery</label>
+                                <input type='radio' name='bill' /><label>Cash on delivery</label>
                             </div>
                         </div>
 
