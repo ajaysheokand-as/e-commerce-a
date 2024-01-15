@@ -37,7 +37,7 @@ function Sevnth_page() {
             <div className='Sevnth_page_3_imgss'>
             <img src={product.img} />
             </div>
-            <button>Buy Now</button>
+            <button>{product.button}</button>
              <div className='Sevnth_page_3_img'>
               
               <h3>{product.name}</h3>
@@ -46,7 +46,8 @@ function Sevnth_page() {
 
              <div className='Sevnth_page_3_text'>
               <h4>{product.prize}</h4>
-              <img src={product.Star} />
+              {/* <img src={product.Star} /> */}
+              <h3>{product.prize2}</h3>
              </div>
 
 

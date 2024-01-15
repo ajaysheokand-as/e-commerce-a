@@ -20,7 +20,7 @@ export const Products_Data=[
    name:"Hp840 G3 i7 6th Generation /Touch",
    button:"Buy Now",
 prize:"Rs:24500",
-prize2:"$2660",
+prize2:"$26600",
 // Img2:Star1
 },
 
@@ -36,9 +36,9 @@ prize2:"$2660",
   {
      Img:Dell3,
      button:"Buy Now",
-     name:"RGB liquid CPU Cooler",
-  prize:"$160",
-  prize2:"$170",
+     name:"Dell 7490 i5 8th Generation ",
+  prize:"Rs:27000",
+  prize2:"$30000",
 //   Img2:Star2
   },
 
@@ -47,8 +47,9 @@ prize2:"$2660",
 
      Img:Dell4,
      button:"Buy Now",
-     name:"Small BookSelf",
-      prize:"$360",
-   //   Img2:Star1
+     name:"Dell 5400 i5 8th Generation ",
+      prize:"Rs:24000",
+      prize2:"Rs:28000",
+   
   },
 ]

@@ -26,7 +26,8 @@ function Fifth_page() {
        
         </div>
     
-        <button>{product.button}</button>
+     
+     <a href={`https://api.whatsapp.com/send/?phone=+918570996916&text=${product.name} - ${product?.prize}`} target='_blank'> <button>{product.button}</button></a>  
       <h3>{product.name}</h3>
       <div className='fifth_page_3_prize'>
         <h4>{product.prize} <span>{product.prize2}</span></h4>

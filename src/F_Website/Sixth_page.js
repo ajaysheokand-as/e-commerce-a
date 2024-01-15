@@ -7,13 +7,14 @@ import Time4 from '../Picture/Flash Sell Timer4.png'
 
 import Speaker from '../Picture/Speaker2.png'
 
+import { catagories } from "../Short_Components/Sixth";
 function Sixth_page(){
     return(
         <>
         <div className="Sixth_page">
         <div className="Sixth_page_1">
             <h3>Categories</h3>
-          <h1>Enhance Your <br/>Music Experience</h1>
+          <h1>Buy Best<br/> Products </h1>
           <div className="Sixth_page_2">
             <img src={Time1}/>
             <img src={Time2}/>
@@ -24,9 +25,16 @@ function Sixth_page(){
        </div>
  
 
-       <div className="Speaker">
+       <div className="Speaker">{
+        catagories.map((product,index)=>{
+          return(
+            <div key={index}><img src={product.Img}/></div>
+          )
+        })
 
-    <img src={Speaker}/>
+       }
+
+   
        </div>
 
 

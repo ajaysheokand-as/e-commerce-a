@@ -12,7 +12,7 @@ export const  Service=[
     {
         img:Services,
         name:"FREE AND FAST DELIVERY",
-        name2:"Free delivery for all orders over $140",
+        name2:"Free delivery for all orders ",
 
     },
     {
@@ -22,7 +22,7 @@ export const  Service=[
     },
     {
         img:Services3,
-        name:"MONEY BACK GUARANTEE",
-        name2:"We reurn money within 30 days",
+        name:"30 Day warranty",
+        name2:"30 Day warranty",
     }
 ]
