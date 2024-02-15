@@ -7,9 +7,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/*<Cart />*/}
-                {/*<Account/>*/}
                 <About/>
+                <Account/>
+                <Cart />
 
             </header>
         </div>
