@@ -1,17 +1,18 @@
 
-// Navbar.js
-
-
 import React, { useState } from "react";
 import "../MYcss/Style.css";
 import "../MYcss/Responsive.css";
 import { NavLink } from "react-router-dom";
-import Image1 from "../Picture/Searchbar.png";
-import Image2 from "../Picture/likeeee.png";
-import Image3 from "../Picture/Cartaaaa.png";
-import Image4 from "../Picture/menu.png";
-import Contact from '../components/page/contact'
-import About from '../sections/portion/About'
+import { IoSearchOutline } from "react-icons/io5";
+import { IoCartOutline } from "react-icons/io5";
+import { IoMdHeartEmpty } from "react-icons/io";
+import { IoMenuOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
+
+
+
+
+
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [searchBar, setSearchBar] = useState(false);
@@ -36,7 +37,7 @@ function Navbar() {
             <NavLink to="/Home">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/Contact">Contant</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
           </li>
           <li>
             <NavLink to="/About">About</NavLink>
@@ -47,37 +48,51 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="Navbar_Search">
-        {/* <div className={`Navbar_Search_1 ${searchBar ? "Search" : ""}`}>
-          <input
-            type="text"
-            placeholder="What are you looking for?"
-            style={{ display: searchBar ? "block" : "none" }}
-          />
-          <img src={Image1} alt="Image1" onClick={toggleSearchBar}  />
-        </div> */}
+      <div className="">
+        <div className="Navbar_Search">
+          <div className={`Navbar_Search_1 ${searchBar ? "none" : "block"} `} >
+            <input
+              type="text"
+              placeholder="What are you looking for?"
+              style={{ display: searchBar ? "block" : "none" }}
+            />
+            <button style={{ display: searchBar ? "block" : "none" }} onClick={toggleSearchBar} ><IoSearchOutline />
+            </button>
 
-        <div className="Navbar_Search_2">
-          <img src={Image2} alt=""   style={{ display: searchBar ? "none" : "block" }} />
-          <img src={Image3} alt=""  style={{ display: searchBar ? "none" : "block" }}  />
-          <div className="Mobile_icon" onClick={click}>
-            <img src={Image4}  />
           </div>
 
-          <div className={`Navmenu_mobile ${toggle ? "toggle" : ""}`}>
-            <ul>
-              <li>
-                <NavLink className="Navmenu_mobile_Navlink" to="/Home">Home</NavLink>
-              </li>
-              <li>
-                <NavLink className="Navmenu_mobile_Navlink" to="/Contant">Contant</NavLink>
-              </li>
-              <li>
-                <NavLink className="Navmenu_mobile_Navlink" to="/About">About</NavLink>
-              </li>
-              <li>
-                <NavLink className="Navmenu_mobile_Navlink" to="/Sign Up">Sign Up</NavLink>
-              </li>
+          <div className="Navbar_Search_2">
+            <button style={{ display: searchBar ? "none" : "block" }} onClick={toggleSearchBar} ><IoSearchOutline />
+            </button>
+            <button style={{ display: searchBar ? "none" : "block" }}><IoMdHeartEmpty />
+
+
+            </button>
+            <button style={{ display: searchBar ? "none" : "block" }}><IoCartOutline />
+            </button>
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+        <div className="Mobile_icon ">
+          <div className="Mobile_icon_1" onClick={click}>
+
+            <span><IoMenuOutline /></span>
+
+          </div>
+
+          <div className="Mobile_icon_2 ">
+            <ul className={`${toggle ? "open" : "close"}`}>
+              <li><Link to="/Home">Home</Link></li>
+              <li><Link to="/Contact">Contact</Link></li>
+              <li><Link to="/About">About</Link></li>
+              <li><Link to="/Sign Up" >Sign Up</Link></li>
             </ul>
           </div>
         </div>
