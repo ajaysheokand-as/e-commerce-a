@@ -236,25 +236,11 @@
 
 .Third_page_3 {
     display: flex;
-    /* position:relative; */
     gap: 10px;
     margin-top: 10px;
 }
 
-/* .Third_page_row3{
 
-    } */
-/* .Third_page_3 img:first-child{
-        width: 21px;
-        height: 21px;
-        border: 1px solid black;
-        
-    }
-    .Third_page_3 img:nth-child(2){
-        width: 24px;
-        height: 24px;
-        
-    } */
 .Third_page_3_img1 {
     height: 46px;
     width: 46px;
@@ -277,14 +263,11 @@
     margin: 40px 0px;
 }
 
-.Third_page_row3_img_text {}
 
 .Third_page_row3_img {
     width: 270px;
     height: 250px;
-    /* padding: 28px 38px; */
-    /* background: 
-        #F5F5F5; */
+
     object-fit: contain;
 }
 
@@ -360,9 +343,7 @@
     margin: 10px 40px;
 }
 
-.Fourth_page_all {
-    /* display: flex; */
-}
+
 
 
 .Fourth_page_1 {
@@ -400,15 +381,6 @@
 }
 
 
-/* .Fourth_pagee_2_img{
-    display: flex;
-    gap: 7px;
-    /* justify-content: center; */
-/* flex-wrap: wrap; */
-/* align-content: center; */
-
-/* } */
-.Fourth_pagee_2_img {}
 
 .Fourth_pagee_2_img button {
     padding: 16px 48px;
@@ -447,7 +419,6 @@
 
 }
 
-.fifth_page_button {}
 
 .fifth_page_button button {
     padding: 16px 48px;
@@ -475,9 +446,7 @@
     line-height: 24px;
 }
 
-.fifth_page_3_Img_text {
-    /* display: flex;    */
-}
+
 
 .fifth_page_3_Img_text button {
     padding: 5px 103px;
@@ -496,8 +465,7 @@
 .fifth_page_3_Img {
     width: 270px;
     height: 250px;
-    /* padding: 28px 38px;
-    background: #F5F5F5; */
+
 }
 
 .fifth_page_3_Img img {
@@ -531,7 +499,6 @@
 .fifth_page_3_stars img {
     width: 140px;
     height: 20px;
-    /* padding: 10px 0px; */
 }
 
 
@@ -602,10 +569,8 @@
 .Speaker img {
     width: 568px;
     height: 330px;
-    /* aspect-ratio: 1/2; */
     object-fit: cover;
     mix-blend-mode: normal;
-    /* z-index: 22; */
     background-color: black;
 
 }
@@ -649,7 +614,6 @@
 
 .Sevnth_page_2_imgs {
     display: flex;
-    /* gap: 5px; */
 }
 
 .Sevnth_page_2_imgs button {
@@ -667,10 +631,8 @@
 
 .Sevnth_page_3 {
     display: flex;
-    /* justify-content:space-between ; */
     margin: 0px 40px;
     margin-bottom: 40px;
-    /* gap: 50px; */
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
@@ -706,7 +668,6 @@
 .Sevnth_page_3_text img {
     width: 140px;
     height: 20px;
-    /* padding-bottom: 5px; */
 }
 
 .Sevnth_page_button {
@@ -784,10 +745,7 @@
     justify-content: center;
 }
 
-.Eight_page_right_bottom img {
-    /* width: 100%;
-    height: 100%; */
-}
+
 
 
 /* -------------eight page end----------- */
@@ -803,14 +761,12 @@
 }
 
 .services1 {
-    /* border:  1px solid black; */
     display: block;
     justify-content: center;
     align-items: center;
     line-height: 21px;
     text-align: center;
-    /* padding: 20px 0px; */
-    /* margin: 10px 0px; */
+
 }
 
 .Service1_1 {
@@ -819,8 +775,7 @@
 }
 
 .Service1_1 img {
-    /* display: flex; */
-    /* justify-content: center; */
+
     width: 80px;
     height: 80px;
     margin: 20px 0px;
@@ -829,7 +784,7 @@
 .services1 h1 {
     font-size: 20px;
     font-weight: 600;
-    /* line-height: 28px; */
+
     padding: 7px 0px;
 
 
@@ -838,24 +793,7 @@
 .services1 p {
     font-size: 17px;
     font-weight: 400;
-    /* line-height: 21px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ----------------------fother start-------------- */
@@ -868,7 +806,6 @@
     background-color: #000;
     padding: 100px 40px;
     color: #fff;
-    /* margin: 0px 40px; */
 }
 
 .Fother h2 {
@@ -888,7 +825,6 @@
 }
 
 .Fother_1_input {
-    /* background-color: white; */
     display: flex;
     width: 230px;
     height: 44px;
@@ -907,9 +843,6 @@
 
 }
 
-.Fother_1_input input::placeholder {
-    /* margin-left: 90px; */
-}
 
 .Fother_1_input img {
     width: 24px;
@@ -923,7 +856,6 @@
     font-size: 12px;
     font-weight: 500;
     color: #FAFAFA;
-    /* font-family: Poppins; */
     margin-bottom: 0rem;
 }
 
@@ -948,9 +880,7 @@
 
 
 
-.stores img:first-child {
-    /* margin-bottom: 8px; */
-}
+
 
 .Social_Media {
     display: flex;
@@ -972,18 +902,6 @@
 .Fother_1 {
     line-height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------Services----------- */
 

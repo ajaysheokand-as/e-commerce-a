@@ -9,10 +9,6 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { IoMenuOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
-
-
-
-
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [searchBar, setSearchBar] = useState(false);
