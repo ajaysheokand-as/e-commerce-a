@@ -7,33 +7,42 @@ import Time4 from '../Picture/Flash Sell Timer4.png'
 
 import Speaker from '../Picture/Speaker2.png'
 
-function Sixth_page(){
-    return(
-        <>
-        <div className="Sixth_page">
+import { catagories } from "../Short_Components/Sixth";
+function Sixth_page() {
+  return (
+    <>
+      <div className="Sixth_page">
         <div className="Sixth_page_1">
-            <h3>Categories</h3>
-          <h1>Enhance Your <br/>Music Experience</h1>
+          <h3>Categories</h3>
+          <h1>Buy Best<br /> Products </h1>
           <div className="Sixth_page_2">
-            <img src={Time1}/>
-            <img src={Time2}/>
-            <img src={Time3}/>
-            <img src={Time4}/>
+            <img src={Time1} />
+            <img src={Time2} />
+            <img src={Time3} />
+            <img src={Time4} />
           </div>
+          {/* <a href={`https://api.whatsapp.com/send/?phone=+918570996916&text=${name} - ${product?.prize}`} target='_blank'> <button>{product.button}</button></a> */}
           <button>Buy Now!</button>
-       </div>
- 
-
-       <div className="Speaker">
-
-    <img src={Speaker}/>
-       </div>
-
-
-       
         </div>
-        </>
-    )
+
+
+        <div className="Speaker">{
+          catagories.map((product, index) => {
+            return (
+              <div key={index}><img src={product.Img} /></div>
+            )
+          })
+
+        }
+
+
+        </div>
+
+
+
+      </div>
+    </>
+  )
 }
 export default Sixth_page;
 
