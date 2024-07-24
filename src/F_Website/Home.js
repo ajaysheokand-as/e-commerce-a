@@ -4,7 +4,7 @@ import Fourth_page from "./Fourth_page";
 import Fifth_page from "./Fifth_page";
 import Sixth_page from "./Sixth_page";
 import Sevnth_page from "./Sevnth_page";
-import Eight_page from "./Eight_page";
+// import Eight_page from "./Eight_page";
 import Tenth_page from "./Tenth_page";
 import MoreDetails from "./MoreDetails"
 import React from "react";
@@ -20,7 +20,7 @@ function Home() {
       <Sixth_page />
       <Sevnth_page />
       <MoreDetails />
-      <Eight_page />
+      {/* <Eight_page /> */}
       <Tenth_page />
     </>
   );
