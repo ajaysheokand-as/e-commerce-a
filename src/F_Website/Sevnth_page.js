@@ -16,7 +16,7 @@ function Sevnth_page() {
           <h1>Explore Our Products </h1>
 
           <div className='Sevnth_page_2_imgs' >
-            <button>View All</button>
+            {/* <button>View All</button> */}
 
           </div>
 
@@ -74,7 +74,7 @@ function Sevnth_page() {
 
 
       <div className='Sevnth_page_button'>
-        <button>View All Products</button>
+        {/* <button>View All Products</button> */}
       </div>
 
 

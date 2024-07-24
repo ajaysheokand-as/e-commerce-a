@@ -1,7 +1,6 @@
 
 
-import hp2 from '../Picture/hp2.jpg'
-import hp3 from '../Picture/hp3.jpg'
+
 import Dell12 from '../Picture/Dell12.jpg'
 import Dell13 from '../Picture/Dell13.jpg'
 import h12 from '../Picture/hp12.png'

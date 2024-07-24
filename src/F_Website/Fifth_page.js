@@ -12,7 +12,7 @@ function Fifth_page() {
         <h1>Best Selling Products </h1>
 
         <div className='fifth_page_button' >
-          <button>View All</button>
+          {/* <button>View All</button> */}
         </div>
 
       </div>

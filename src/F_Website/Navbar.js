@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar_logo">
-        <h2>Exclusive</h2>
+        <h2>OM COMPUTER </h2>
       </div>
 
       <div className="Navmenu">

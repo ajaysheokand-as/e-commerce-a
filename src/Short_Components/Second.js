@@ -1,9 +1,6 @@
 
 
-import Dell1 from '../Picture/Dell1.jpg'
 import Apple from '../Picture/apple11.jpg'
-import hp from '../Picture/hp1.jpg';
-import Lenovo from '../Picture/Lenovo1.jpg'
 import Dell10 from '../Picture/Dell10.jpg'
 import hp10 from '../Picture/hp10.jpg'
 import Lenovo10 from "../Picture/lenovo10.jpg"
