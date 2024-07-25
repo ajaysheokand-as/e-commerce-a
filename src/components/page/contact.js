@@ -7,7 +7,7 @@ function contact() {
     return (
         <div className='contact'>
             <div className='home'>
-                <label>Home / </label><span> Contact</span>
+                <label>Home  </label><span> /</span><span> Contact</span>
             </div>
 
             <div className='content_contact_'>
@@ -22,7 +22,7 @@ function contact() {
                                 </div>
                                 <div className='call_'>
                                     <h6>We are available 24/7, 7 days a week.</h6>
-                                    <h6>Phone: +8801611112222</h6>
+                                    <h6>Phone:8930896896, 9812902468</h6>
                                 </div>
 
                                 <hr />
@@ -36,8 +36,8 @@ function contact() {
                                 <div className='write'>
                                     <h6>Fill out our form and we will contact<br />
                                         you within 24 hours.</h6>
-                                    <h6 id='top'>Emails: customer@exclusive.com</h6>
-                                    <h6>Emails: support@exclusive.com</h6>
+                                    <h6>Emails:3rsenterprisesktl@gmail.com</h6>
+
                                 </div>
                             </div>
 

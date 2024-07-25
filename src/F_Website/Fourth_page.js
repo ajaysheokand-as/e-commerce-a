@@ -24,7 +24,7 @@ const Fourth_page = () => {
               <div className='fourth_page_2'>
                 <h1>{product.name2}</h1>
                 <div key={index} className='Fourth_pagee_2_img'>
-                  <button>View All</button>
+                  {/* <button>View All</button> */}
                 </div>
 
 

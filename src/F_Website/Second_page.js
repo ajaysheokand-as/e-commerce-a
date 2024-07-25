@@ -20,7 +20,7 @@ function Second_page() {
 
 
           <div className='fifth_page_button' >
-            <button>View All</button>
+            {/* <button>View All</button> */}
           </div>
 
 
@@ -58,7 +58,7 @@ function Second_page() {
 
         <div className='Third_page_row4'>
 
-          <button>View All Products</button>
+          {/* <button>View All Products</button> */}
         </div>
 
 

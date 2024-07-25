@@ -7,6 +7,7 @@ import Twitter from '../Picture/Twitter.png'
 import instagram from '../Picture/instagram.png'
 import Linkedin from '../Picture/Linkedin.png'
 import Send from '../Picture/icon-send.png'
+import { Link } from 'react-router-dom';
 
 function Fother() {
   return (
@@ -14,15 +15,10 @@ function Fother() {
       <div className='Fother'>
 
         <div className='Fother_1 Fother_all'>
-          <h2>Exclusive</h2>
+          <h2>OM COMPUTER SOLUTIONS</h2>
           <h3 className='Fother_h3'>Subscribe</h3>
           <h3>Get 10% off your first order</h3>
-          <div className='Fother_input'>
-            <div className='Fother_1_input'>
-              <input type='text' placeholder='Enter your email' />
-              <img src={Send} />
-            </div>
-          </div>
+
 
         </div>
 
@@ -49,33 +45,11 @@ function Fother() {
           <h3>Privacy Policy</h3>
           <h3>Terms Of Use</h3>
           <h3>FAQ</h3>
+          {/* <Link to="/Contact"><h3>Contact</h3></Link> */}
           <h3>Contact</h3>
         </div>
 
-        <div className='Fother_5 Fother_all'>
-          <h2>Download App</h2>
-          <p>Save $3 with App New User Only</p>
 
-          <div className='Qr_stores'>
-            <div className='Qr'>
-              <img src={Qrcode} />
-            </div>
-            <div className='stores'>
-              <img src={Google_play} /><br />
-              <img src={Apple_play} />
-            </div>
-
-
-          </div>
-
-          <div className='Social_Media'>
-            <img src={facebook} />
-            <img src={Twitter} />
-            <img src={instagram} />
-            <img src={Linkedin} />
-          </div>
-
-        </div>
 
       </div>
 
