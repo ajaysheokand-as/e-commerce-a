@@ -39,7 +39,7 @@ function Navbar() {
             <NavLink to="/About">About</NavLink>
           </li>
           <li>
-            <NavLink to="/Sign Up">Sign Up</NavLink>
+            {/* <NavLink to="/Sign Up">Sign Up</NavLink> */}
           </li>
         </ul>
       </div>
@@ -88,7 +88,7 @@ function Navbar() {
               <li><Link to="/Home">Home</Link></li>
               <li><Link to="/Contact">Contact</Link></li>
               <li><Link to="/About">About</Link></li>
-              <li><Link to="/Sign Up" >Sign Up</Link></li>
+              {/* <li><Link to="/Sign Up" >Sign Up</Link></li> */}
             </ul>
           </div>
         </div>
